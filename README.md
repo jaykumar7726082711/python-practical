@@ -58,6 +58,6 @@ if __name__ == "__main__":
             print(f"The equation has one real root: {roots[0]}")
         else:
             print(f"The roots of the equation are: {roots[0]} and {roots[1]}")
-```
+
     except ValueError:
         print("Invalid input. Please enter numerical values for coefficients.")
