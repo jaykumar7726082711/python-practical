@@ -1,4 +1,5 @@
 # python-practical 1
+## a python program to find roots of quadratic equation 
 ```import cmath # Import cmath for handling complex numbers
 
 def find_quadratic_roots(a, b, c):
@@ -61,3 +62,5 @@ if __name__ == "__main__":
 
     except ValueError:
         print("Invalid input. Please enter numerical values for coefficients.")
+```
+#practical 2
