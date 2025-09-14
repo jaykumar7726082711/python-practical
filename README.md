@@ -75,7 +75,6 @@ def is_prime(num):
     return True
 
 
-# Function to generate all prime numbers till n
 def primes_till_n(n):
     primes = []
     for i in range(2, n + 1):
@@ -84,7 +83,7 @@ def primes_till_n(n):
     return primes
 
 
-# Function to generate first n prime numbers
+
 def first_n_primes(n):
     primes = []
     num = 2
@@ -93,21 +92,16 @@ def first_n_primes(n):
             primes.append(num)
         num += 1
     return primes
-
-
-# Main Program
 n = int(input("Enter a number: "))
 
-# a. Check if n is prime
 if is_prime(n):
     print(f"{n} is a Prime number.")
 else:
     print(f"{n} is NOT a Prime number.")
 
-# b. Generate all prime numbers till n
+
 print(f"Prime numbers till {n}: {primes_till_n(n)}")
 
-# c. Generate first n prime numbers
 print(f"First {n} prime numbers: {first_n_primes(n)}")
 ```
 ## 3 . Write a program to create a pyramid of the character **" and a reverse pyramid
@@ -139,7 +133,7 @@ reverse_pyramid(rows)
 ### a. print whether the character is a letter or numeric digit or a special character
 ```
 
-# Program to check type of character
+
 
 ch = input("Enter a single character: ")
 
@@ -155,8 +149,7 @@ else:
  ```
 ### b. if the character is a letter, print whether the letter is uppercase or lowercase
 ```
-# Program to check type of character (letter, digit, or special)
-# and if letter, check uppercase/lowercase
+
 
 ch = input("Enter a single character: ")
 
@@ -176,10 +169,6 @@ else:
 ```
 ### c.if the character is a numeric digit, prints its name in text (e.g., if input is 9, )
 ```
-# Program to check character type
-# a. Letter / Digit / Special
-# b. If letter, check case
-# c. If digit, print digit name
 
 ch = input("Enter a single character: ")
 
