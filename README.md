@@ -204,7 +204,7 @@ else:
 ## 5. Write a program to perform the following operations on a string
 
 ### a. Find the frequency of a character in a string.
-# a. Frequency of a character
+
 ```
 s = input("Enter a string: ")
 ch = input("Enter a character: ")
