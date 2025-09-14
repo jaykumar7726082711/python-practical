@@ -378,7 +378,6 @@ print("Concatenated tuple:", t1 + t2)
 ### d. Return maximum and minimum value from this tuple
 ```
 
-# d) Max and Min
 print("Maximum =", max(t1))
 print("Minimum =", min(t1))
 ```
