@@ -1,5 +1,5 @@
-# python-practical 1
-## a python program to find roots of quadratic equation 
+# python-practical 
+## 1.a python program to find roots of quadratic equation 
 ```import cmath # Import cmath for handling complex numbers
 
 def find_quadratic_roots(a, b, c):
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     except ValueError:
         print("Invalid input. Please enter numerical values for coefficients.")
 ```
-# Q.2 . Write a program to accept a number 'n' and a. Check if 'n' is prime b. Generate all prime numbers till 'n' c. Generate first 'n' prime numbers This program may be done using functions
+# 2 . Write a program to accept a number 'n' and a. Check if 'n' is prime b. Generate all prime numbers till 'n' c. Generate first 'n' prime numbers This program may be done using functions
 # Function to check if a number is prime
 ```
 def is_prime(num):
@@ -110,7 +110,7 @@ print(f"Prime numbers till {n}: {primes_till_n(n)}")
 # c. Generate first n prime numbers
 print(f"First {n} prime numbers: {first_n_primes(n)}")
 ```
-## Q.3 . Write a program to create a pyramid of the character **" and a reverse pyramid
+## 3 . Write a program to create a pyramid of the character **" and a reverse pyramid
 ```
 
 def pyramid(n):
@@ -132,7 +132,7 @@ pyramid(rows)
 print("\nReverse Pyramid:")
 reverse_pyramid(rows) 
 ```
-Q.4 4. Write a program that accepts a character and performs the following:
+## 4. Write a program that accepts a character and performs the following:
 
 
 
@@ -212,7 +212,7 @@ else:
     else:
         print("It is a special character.")
 ```
-## Q.5. Write a program to perform the following operations on a string
+## 5. Write a program to perform the following operations on a string
 
 ### a. Find the frequency of a character in a string.
 # a. Frequency of a character
